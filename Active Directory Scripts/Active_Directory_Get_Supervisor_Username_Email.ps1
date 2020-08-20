@@ -1,12 +1,10 @@
-﻿# Populate the 'Supervisor Username' and 'Supervisor Email' columns in a spreadsheet
-# Loop over the list of supervisors and using the 'Supervisor ID'
-# Query Active Directory using the User.employeeID attribute
+﻿# Poulate Spreadsheet with employee USERNAME and EMAIL from Active Directory
 
 $excel = New-Object -ComObject excel.application
 $excel.Visible = $true
 $excel.DisplayAlerts = $true
 
-$wb = $excel.Workbooks.Open('C:\supervisors.xls')
+$wb = $excel.Workbooks.Open('C:\users.xls')
 
 foreach ($worksheet in $wb.Sheets){
     

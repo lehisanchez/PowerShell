@@ -1,8 +1,3 @@
-# Active Directory Scripts
-# ========================
-
-
-
 # --------------------------
 # Batch Add Members to Group
 # --------------------------
